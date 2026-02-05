@@ -14,6 +14,6 @@ spec:
         spec:
             containers:
             - name: demo
-              image: demo-app:latest
+              image: muneeswaran/demo-kube:v1
               ports:
               - containerPort: 3000
